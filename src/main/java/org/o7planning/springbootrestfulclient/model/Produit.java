@@ -7,6 +7,12 @@ public class Produit {
     private int prix;
     private int quantite;
 
+    public Produit(String nom, int prix, int quantite) {
+        this.nom = nom;
+        this.prix = prix;
+        this.quantite = quantite;
+    }
+
     public Produit() {
     }
 
